@@ -10,8 +10,8 @@ swift版iOS网页的js交互
 
 导入class目录下的BYWeb开头的文件到项目，将html目录下的文件放入服务器中。
 
-1. 修改`BYJSBridge.js`文件的`BYLoadMethod`方法自定义url scheme和url hostName
-2. 修改`BYJSBridge.js`文件的`bindEvent`方法绑定交互方法
+* 修改`BYJSBridge.js`文件的`BYLoadMethod`方法自定义url scheme和url hostName
+* 修改`BYJSBridge.js`文件的`bindEvent`方法绑定交互方法
 
 ```js
 //绑定`test`方法，返回给客户端`message`
@@ -30,8 +30,8 @@ $("#test").bind("click", function(){
 });
 ```
 
-3. 修改`BYWebConfiguration.swift`文件自定义url scheme和url hostName
-4. 修改`BYTestResponder.swift`文件定义交互行为
+* 修改`BYWebConfiguration.swift`文件自定义url scheme和url hostName
+* 修改`BYTestResponder.swift`文件定义交互行为
 
 ```swift
 class BYTestResponder: NSObject,BYWebJSBridgeNativeResponderProtocol {
@@ -51,7 +51,7 @@ class BYTestResponder: NSObject,BYWebJSBridgeNativeResponderProtocol {
 }
 ```
 
-5. 初始化webView设置代理和注册配置和方法
+* 初始化webView设置代理和注册配置和方法
 
 ```swift
 webView.UIDelegate = webDelegate
