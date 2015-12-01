@@ -31,10 +31,10 @@ $("#test").bind("click", function(){
 ```
 
 * 修改`BYWebConfiguration.swift`文件自定义url scheme和url hostName
-* 修改`BYTestResponder.swift`文件定义交互行为
+* 修改`BYWebResponder.swift`文件定义交互行为
 
 ```swift
-class BYTestResponder: NSObject,BYWebJSBridgeNativeResponderProtocol {
+class BYWebResponder: NSObject,BYWebJSBridgeNativeResponderProtocol {
 	//监听test方法
     static func bindMethod() -> String {
         return "test"

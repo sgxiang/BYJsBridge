@@ -1,5 +1,5 @@
 //
-//  BYTestResponder.swift
+//  BYWebResponder.swift
 //  BYJsBridge
 //
 //  Created by ysq on 15/12/1.
@@ -9,7 +9,7 @@
 
 import UIKit
 
-class BYTestResponder: NSObject,BYWebJSBridgeNativeResponderProtocol {
+class BYWebResponder: NSObject,BYWebJSBridgeNativeResponderProtocol {
     static func bindMethod() -> String {
         return "test"
     }

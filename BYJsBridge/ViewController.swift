@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         webView.UIDelegate = webDelegate
         webView.navigationDelegate = webDelegate
         webDelegate.registeConfigurationClass(configuration)
-        webDelegate.registeNativeResponderClass(BYTestResponder.self)
+        webDelegate.registeNativeResponderClass(BYWebResponder.self)
         webView.loadRequest(NSURLRequest(URL: NSURL(string: "http://localhost/html/test.html")!))
         
     }
