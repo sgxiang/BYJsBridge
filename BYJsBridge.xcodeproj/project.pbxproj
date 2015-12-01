@@ -12,11 +12,11 @@
 		1A7ABEA41C0D7D1E0089CBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7ABEA21C0D7D1E0089CBB2 /* Main.storyboard */; };
 		1A7ABEA61C0D7D1E0089CBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7ABEA51C0D7D1E0089CBB2 /* Assets.xcassets */; };
 		1A7ABEA91C0D7D1E0089CBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7ABEA71C0D7D1E0089CBB2 /* LaunchScreen.storyboard */; };
-		1A7ABEB81C0D7D320089CBB2 /* BYWebJSBridgeCallbackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEB21C0D7D320089CBB2 /* BYWebJSBridgeCallbackHandler.swift */; };
-		1A7ABEB91C0D7D320089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEB31C0D7D320089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift */; };
-		1A7ABEBA1C0D7D320089CBB2 /* BYWebJSBridgeWebviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEB41C0D7D320089CBB2 /* BYWebJSBridgeWebviewDelegate.swift */; };
-		1A7ABEBB1C0D7D320089CBB2 /* BYWebResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEB51C0D7D320089CBB2 /* BYWebResponder.swift */; };
-		1A7ABEBD1C0D7D7D0089CBB2 /* BYWebConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEBC1C0D7D7D0089CBB2 /* BYWebConfiguration.swift */; };
+		1A7ABEC41C0D8D020089CBB2 /* BYWebConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEBF1C0D8D020089CBB2 /* BYWebConfiguration.swift */; };
+		1A7ABEC51C0D8D020089CBB2 /* BYWebJSBridgeCallbackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEC01C0D8D020089CBB2 /* BYWebJSBridgeCallbackHandler.swift */; };
+		1A7ABEC61C0D8D020089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEC11C0D8D020089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift */; };
+		1A7ABEC71C0D8D020089CBB2 /* BYWebJSBridgeWebviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEC21C0D8D020089CBB2 /* BYWebJSBridgeWebviewDelegate.swift */; };
+		1A7ABEC81C0D8D020089CBB2 /* BYWebResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7ABEC31C0D8D020089CBB2 /* BYWebResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		1A7ABEA51C0D7D1E0089CBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A7ABEA81C0D7D1E0089CBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A7ABEAA1C0D7D1E0089CBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A7ABEB21C0D7D320089CBB2 /* BYWebJSBridgeCallbackHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebJSBridgeCallbackHandler.swift; sourceTree = "<group>"; };
-		1A7ABEB31C0D7D320089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebJSBridgeConfigurationProtocol.swift; sourceTree = "<group>"; };
-		1A7ABEB41C0D7D320089CBB2 /* BYWebJSBridgeWebviewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebJSBridgeWebviewDelegate.swift; sourceTree = "<group>"; };
-		1A7ABEB51C0D7D320089CBB2 /* BYWebResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebResponder.swift; sourceTree = "<group>"; };
-		1A7ABEBC1C0D7D7D0089CBB2 /* BYWebConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BYWebConfiguration.swift; path = class/BYWebConfiguration.swift; sourceTree = "<group>"; };
+		1A7ABEBF1C0D8D020089CBB2 /* BYWebConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebConfiguration.swift; sourceTree = "<group>"; };
+		1A7ABEC01C0D8D020089CBB2 /* BYWebJSBridgeCallbackHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebJSBridgeCallbackHandler.swift; sourceTree = "<group>"; };
+		1A7ABEC11C0D8D020089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebJSBridgeConfigurationProtocol.swift; sourceTree = "<group>"; };
+		1A7ABEC21C0D8D020089CBB2 /* BYWebJSBridgeWebviewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebJSBridgeWebviewDelegate.swift; sourceTree = "<group>"; };
+		1A7ABEC31C0D8D020089CBB2 /* BYWebResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWebResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +66,25 @@
 			children = (
 				1A7ABE9E1C0D7D1E0089CBB2 /* AppDelegate.swift */,
 				1A7ABEA01C0D7D1E0089CBB2 /* ViewController.swift */,
-				1A7ABEBC1C0D7D7D0089CBB2 /* BYWebConfiguration.swift */,
-				1A7ABEB21C0D7D320089CBB2 /* BYWebJSBridgeCallbackHandler.swift */,
-				1A7ABEB31C0D7D320089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift */,
-				1A7ABEB41C0D7D320089CBB2 /* BYWebJSBridgeWebviewDelegate.swift */,
-				1A7ABEB51C0D7D320089CBB2 /* BYWebResponder.swift */,
+				1A7ABEBE1C0D8D020089CBB2 /* class */,
 				1A7ABEA21C0D7D1E0089CBB2 /* Main.storyboard */,
 				1A7ABEA51C0D7D1E0089CBB2 /* Assets.xcassets */,
 				1A7ABEA71C0D7D1E0089CBB2 /* LaunchScreen.storyboard */,
 				1A7ABEAA1C0D7D1E0089CBB2 /* Info.plist */,
 			);
 			path = BYJsBridge;
+			sourceTree = "<group>";
+		};
+		1A7ABEBE1C0D8D020089CBB2 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				1A7ABEBF1C0D8D020089CBB2 /* BYWebConfiguration.swift */,
+				1A7ABEC01C0D8D020089CBB2 /* BYWebJSBridgeCallbackHandler.swift */,
+				1A7ABEC11C0D8D020089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift */,
+				1A7ABEC21C0D8D020089CBB2 /* BYWebJSBridgeWebviewDelegate.swift */,
+				1A7ABEC31C0D8D020089CBB2 /* BYWebResponder.swift */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,13 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A7ABEB81C0D7D320089CBB2 /* BYWebJSBridgeCallbackHandler.swift in Sources */,
-				1A7ABEBD1C0D7D7D0089CBB2 /* BYWebConfiguration.swift in Sources */,
-				1A7ABEBB1C0D7D320089CBB2 /* BYWebResponder.swift in Sources */,
+				1A7ABEC41C0D8D020089CBB2 /* BYWebConfiguration.swift in Sources */,
+				1A7ABEC81C0D8D020089CBB2 /* BYWebResponder.swift in Sources */,
 				1A7ABEA11C0D7D1E0089CBB2 /* ViewController.swift in Sources */,
-				1A7ABEBA1C0D7D320089CBB2 /* BYWebJSBridgeWebviewDelegate.swift in Sources */,
-				1A7ABEB91C0D7D320089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift in Sources */,
+				1A7ABEC61C0D8D020089CBB2 /* BYWebJSBridgeConfigurationProtocol.swift in Sources */,
 				1A7ABE9F1C0D7D1E0089CBB2 /* AppDelegate.swift in Sources */,
+				1A7ABEC71C0D8D020089CBB2 /* BYWebJSBridgeWebviewDelegate.swift in Sources */,
+				1A7ABEC51C0D8D020089CBB2 /* BYWebJSBridgeCallbackHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				1A7ABEAF1C0D7D1E0089CBB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
